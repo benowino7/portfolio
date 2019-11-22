@@ -94,15 +94,19 @@ hr{
     color:silver bold;
     width: 80%;
     height: 20px;
-    border-radius: 20%;
-    overflow: hidden;
 }
-.first{
 
+.main img, .last img{
+    height: 440px;
+    width: 440px;
+    border-radius: 30%;
 }
-.second{
-
+.main p{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 24px;
+    text-align:center;
 }
-.third{
+.last p{
     
+    font-size: 30px bold;
 }
