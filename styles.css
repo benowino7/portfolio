@@ -57,6 +57,9 @@ nav img {
 
 
 }
+.begin h1{
+    margin-top: 20%;
+}
 
 h2,
 h3 {
@@ -70,12 +73,13 @@ h1 {
 }
 footer{
     background-color: silver;
+    text-align: center;
 }
 
 
 i {
     padding: 10px;
-    margin-left: 100px;
+    margin-left: 10%;
     display: flex;
     justify-content: space space-around;
 }
