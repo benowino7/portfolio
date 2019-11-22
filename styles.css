@@ -109,4 +109,8 @@ hr{
 .last p{
     
     font-size: 30px bold;
+    float:left;
+}
+.last{
+   position:relative; 
 }
