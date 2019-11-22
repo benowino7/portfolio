@@ -1,6 +1,7 @@
-html{
+html {
     background-color: aqua;
 }
+
 nav {
     width: 100%;
     /* justify-content: space-around; */
@@ -9,6 +10,7 @@ nav {
     margin-top: 0%;
     background-color: rgb(132, 212, 212)
 }
+
 nav ul {
     text-align: right;
 
@@ -37,10 +39,31 @@ nav>ul>li>a:hover {
     background: brown;
     color: rgba(12, 12, 9, 0.7);
 }
-nav img{
+
+nav img {
     height: 200px;
     width: 200px;
     border-radius: 30%;
+}
+
+.begin {
+    background-image: url('https://images.pexels.com/photos/344621/pexels-photo-344621.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+h2,
+h3 {
+    background-color: rgb(131, 201, 201);
+    padding: 1%;
+    font-family: 'Abril Fatface', cursive;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
 }
 
 
