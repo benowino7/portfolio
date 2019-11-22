@@ -108,9 +108,10 @@ hr{
 }
 .last p{
     
-    font-size: 30px bold;
-    float:left;
+    font-size: 25px;
+    font-family: 'Abril Fatface', cursive;
+    
 }
-.last{
-   position:relative; 
+span{
+    font-size: 45px;
 }
