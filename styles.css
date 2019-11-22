@@ -8,7 +8,7 @@ nav {
     display: flex;
     position: relative;
     margin-top: 0%;
-    background-color:silver;
+    background-color: silver;
 }
 
 nav ul {
@@ -36,7 +36,8 @@ nav>ul>li>a {
 
 nav>ul>li>a:hover {
     box-shadow: 0 0 10px rgba(17, 17, 17, 0.1), inset 0 0 1px rgba(100, 93, 93, 0.6);
-    background: #08838b;;
+    background: #08838b;
+    ;
     color: rgba(12, 12, 9, 0.7);
 }
 
@@ -57,9 +58,10 @@ nav img {
 
 
 }
-.begin  p{
+
+.begin p {
     /* margin-top: 10%; */
-    color :silver;
+    color: silver;
     text-shadow: #08838b 4px 4px 5px;
 }
 
@@ -73,7 +75,8 @@ h3 {
 h1 {
     font-family: 'Abril Fatface', cursive;
 }
-footer{
+
+footer {
     background-color: silver;
     text-align: center;
 }
@@ -91,28 +94,38 @@ i:hover {
     background: #08838b;
     color: rgba(12, 12, 9, 0.7);
 }
-hr{
-    color:silver bold;
+
+hr {
+    color: silver bold;
     width: 80%;
     height: 20px;
 }
 
-.main img, .last img{
+.main img,
+.last img {
     height: 440px;
     width: 440px;
     border-radius: 30%;
 }
-.main p{
+
+.main p {
     font-family: 'Shadows Into Light', cursive;
     font-size: 24px;
-    text-align:center;
+    text-align: center;
 }
-.last p{
-    
+
+.last p {
+
     font-size: 25px;
     font-family: 'Abril Fatface', cursive;
-    
+
 }
-span{
+
+span {
     font-size: 45px;
+}
+
+img:hover {
+    transform: (1.1);
+    transition-duration: 2s;
 }
