@@ -1,5 +1,5 @@
 html {
-    background-color: aqua;
+    background-color: grey;
 }
 
 nav {
@@ -8,7 +8,7 @@ nav {
     display: flex;
     position: relative;
     margin-top: 0%;
-    background-color: rgb(132, 212, 212)
+    background-color:silver;
 }
 
 nav ul {
@@ -36,7 +36,7 @@ nav>ul>li>a {
 
 nav>ul>li>a:hover {
     box-shadow: 0 0 10px rgba(17, 17, 17, 0.1), inset 0 0 1px rgba(100, 93, 93, 0.6);
-    background: brown;
+    background: #08838b;;
     color: rgba(12, 12, 9, 0.7);
 }
 
@@ -52,12 +52,15 @@ nav img {
     text-align: center;
     font-size: 35px;
     font-family: 'Dancing Script', cursive;
+    background-size: cover;
+    height: 800px;
+
 
 }
 
 h2,
 h3 {
-    background-color: rgb(131, 201, 201);
+    background-color: silver;
     padding: 1%;
     font-family: 'Abril Fatface', cursive;
 }
@@ -65,30 +68,9 @@ h3 {
 h1 {
     font-family: 'Abril Fatface', cursive;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+footer{
+    background-color: silver;
+}
 
 
 i {
