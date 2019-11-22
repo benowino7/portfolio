@@ -60,6 +60,7 @@ nav img {
 .begin  p{
     /* margin-top: 10%; */
     color :silver;
+    text-shadow: #08838b 4px 4px 5px;
 }
 
 h2,
