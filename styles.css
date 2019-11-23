@@ -103,8 +103,8 @@ hr {
 
 .main img,
 .last img {
-    height: 440px;
-    width: 440px;
+    height: 400px;
+    width: 400px;
     border-radius: 30%;
 }
 
@@ -125,7 +125,29 @@ span {
     font-size: 45px;
 }
 
-img:hover {
-    transform: (1.1);
-    transition-duration: 2s;
+.first img {
+    /* transform: (1.1); */
+    /* transition-duration: 2s;  */
+
+    -ms-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
 }
+
+ .begin :hover {
+  -ms-transform: scale(1.5);
+-webkit-transform: scale(1.5);
+transform: scale(1.5);
+}
+
+.third img {
+    -ms-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+/* .second>img :hover {
+    -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  } */
+  
