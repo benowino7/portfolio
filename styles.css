@@ -51,10 +51,10 @@ nav img {
     background-image: url('https://images.pexels.com/photos/344621/pexels-photo-344621.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
     background-repeat: no-repeat;
     text-align: center;
-    font-size: 35px;
+    font-size: 32px;
     font-family: 'Dancing Script', cursive;
     background-size: cover;
-    height: 800px;
+    height: 700px;
 
 
 }
@@ -103,8 +103,8 @@ hr {
 
 .main img,
 .last img {
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     border-radius: 30%;
 }
 
@@ -118,7 +118,13 @@ hr {
 
     font-size: 25px;
     font-family: 'Abril Fatface', cursive;
+    text-align: center;
 
+}
+
+.last img {
+    border-radius: 50%;
+    animation: ben 6s alternate ease-in-out infinite;
 }
 
 span {
@@ -134,10 +140,10 @@ span {
     transform: rotate(20deg);
 }
 
- .begin :hover {
-  -ms-transform: scale(1.5);
--webkit-transform: scale(1.5);
-transform: scale(1.5);
+.begin :hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
 }
 
 .third img {
@@ -145,10 +151,52 @@ transform: scale(1.5);
     -webkit-transform: rotate(20deg);
     transform: rotate(20deg);
 }
+
 .inn :hover {
     -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
-  
-  } 
-  
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+
+}
+
+/* .beni{
+      border: 2px solid silver;
+      height: 300px;
+      width:200;
+      
+  } */
+.ben {
+    text-align: center;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    animation: bounce 2s alternate ease-in-out infinite;
+    transform-origin: right middle;
+    /* transform: translateY() */
+}
+
+.ben h1 {
+    margin-top: 15%;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(30px);
+    }
+
+    to {
+        transform: translateY(380px);
+    }
+}
+
+@keyframes ben {
+    from {
+        transform: rotate(-180deg)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}
